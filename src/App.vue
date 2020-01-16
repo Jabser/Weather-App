@@ -73,12 +73,16 @@ export default {
 
 body {
   font-family: 'montserrat', sans-serif;
+  background-color: #313131;
 }
 
 #app {
   background-image: url('./assets/cold-bg.jpg');
   background-size: cover;
   background-position: bottom;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
   transition: .4s;
 }
 #app.warm {
@@ -87,6 +91,7 @@ body {
 
 main {
   min-height: 100vh;
+  margin: 0 auto;
   padding: 20px;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75));
 
