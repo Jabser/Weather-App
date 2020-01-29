@@ -1,5 +1,7 @@
 # Weather App
 
+![cover_image](src/assets/cover.png)
+
 ## Project setup
 ```
 npm install
